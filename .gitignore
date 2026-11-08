@@ -1,0 +1,28 @@
+# Private database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Database backups and logs
+backups/
+*.log
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and configuration
+.env
+
+# Generated Excel reports
+*.xlsx
+
+
+# Local administrative utility
+reset_admin_password.py
